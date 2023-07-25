@@ -29,9 +29,9 @@ int main(void)
 	{
 		diff_half1 = (sum - 2772) / 2;
 		diff_half2 = (sum - 2772) / 2;
-
+i
 		if ((sum - 2772) % 2 != 0)
-						diff_haf1++;
+						diff_half1++;
 
 		for (index = 0; password[index]; index++)
 					
@@ -58,5 +58,6 @@ int main(void)
 						}
 					}
 }
-printf("%d", password);
-reteunt (0);
+printf("%s", password);
+return (0);
+}
